@@ -1,0 +1,190 @@
+    html {
+        height: 100%;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    body {
+        background: #f0f0f0;
+    }
+    .container-fluid{
+        margin:0px;
+        padding:0px;
+    }
+    p{
+        font-size:15px;
+    }
+    h1{
+        text-align:center;
+        font-family: 'Prata', serif;
+        font-size: 30px; 
+        padding-top: 15px;   }
+    h2{
+        font-family: 'Prata', serif;
+        font-size: 25px;
+    }
+    h3{
+        font-family: 'Abel', serif;
+        font-size:20px;
+    }
+    /**-- NAV BAR --**/
+    .navbar, .navbar-expand-lg{
+        background-color: #45a049;
+        Color: white;
+        font-family: 'Abel', sans-serif;
+        font-size:15px;
+    }
+    
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+        background-color: #45a049;
+        Color: white;
+        font-family: 'Abel', sans-serif;
+        font-size:15px;
+    }
+   
+   .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+        margin-right: 0vw;
+        margin-left: 0vw;
+    }
+    .navbar-nav>li>.dropdown-menu { 
+        background-color: #45a049;
+        font-family: 'Abel', sans-serif;
+        font-size:15px;
+    }
+    .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+        background-color:rgb(60, 199, 18);
+    }
+    .dropdown-item {
+        Color: white;
+    }
+    .navbar-inverse {
+      background-color: #45a049;
+      border-color: #0c7c11;
+    }
+    .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+        Color: white;
+        font-family: 'Abel', sans-serif;
+        font-size:17px;
+    }
+    .navbar-inverse .navbar-toggle {
+        margin-right:8vw;
+        border-color: white;
+    }
+    .navbar-brand{
+        padding-left: 2vw;
+        Color: rgb(248, 239, 239) !important;
+        letter-spacing: 0.0625em;
+        font-family: 'Prata', serif;
+        font-size:25px;
+    }
+    .btn, .btn-info{
+    background-color: #4CAF50;
+    border: none;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius:4px;
+    }
+    .btn, .btn-info>a{
+        color: white;
+        padding:  4px 4px;
+        text-align: center;
+        text-decoration: none; 
+        font-size:15px;
+    }
+   /**-- NOTI --**/
+   .noti{
+       background-color: #b3df16;
+       
+   }
+   .noti a{
+       color:white;
+ }
+    .noti span{
+        color:rgb(187, 54, 54);
+        font-weight: 700;
+    }
+    .noti p{
+        font-weight: 400;}
+   .notiorder{
+       padding-bottom: 2vw;
+   }
+   .notiorder>h2{
+       text-align:center;
+        color: #4CAF50;
+        margin: 0px;
+   }
+   .notiorder>h4{
+       text-align:center;
+        color: #fffffffb;
+        font-family: 'Dancing Script', cursive;
+        font-size: 25px;
+        margin: 0px;
+    
+   }
+    /**-- ROW --**/
+    .row{
+        padding: 1vw 0vw 1vw 0vw;
+        border-bottom: 1px solid #45a049;
+    }
+    .contentindex >h2{
+        text-align: center;
+        font-weight: 400;
+    }
+    .contentindex >p{
+        padding-top:1vw;
+        text-align: justify;
+        font-family: 'Abel', sans-serif;
+        font-size:15px;
+    }
+    .contentindex >.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+        background-color: #4CAF50;
+        font-size: 15px;
+        padding:  4px 4px;
+        border-radius: 4px;
+        border-color: #4CAF50;
+        font-family: 'Abel', sans-serif;
+        margin-left: 6vw; }
+    /*DETAIL PAGE*/
+    #detailpage>.container-fluid>header>h1{
+        text-align:center;
+        margin: 0px;
+    }
+    #detailpage .container-fluid h2{
+        margin-left: 10vw;
+    
+    }
+    #detailpage .container-fluid p{
+        padding-top:1vw;
+        text-align: justify;
+        font-family: 'Abel', sans-serif;
+        font-size:15px;
+    }
+    #detailpage .container-fluid ul li{
+        padding-top:1vw;
+        text-align: justify;
+        font-family: 'Abel', sans-serif;
+        font-size:15px;
+        margin-left: 10vw;
+    }
+    /*Footer*/
+    footer{
+        background-color:#45a049;
+        margin:0%;
+    }
+    .footerinfor>p{
+        font-size:15px;
+        color: white;
+    }
+    .footerinfor>p>a{
+        color: white;
+        padding-left:1vw;
+    }
+    .fa{
+        font-size:15px;
+        color: rgb(28, 240, 91);
+        padding-right:1vw;
+    }
