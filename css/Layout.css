@@ -1,0 +1,49 @@
+
+*{
+    box-sizing: border-box;
+}
+@media screen and (min-width: 320px){
+    .index img, .contentdetails img{
+        max-height:200px;
+        max-width:200px;
+    }
+    form, .container>form{
+        padding:10px 10px;
+    }
+    main{
+        padding:10px 10px
+    }
+input, textarea, select, .form-control {
+    width:100%;
+}
+}
+@media screen and (min-width: 768px) {
+    .index img, .contentdetails img{
+        max-height:300px;
+        max-width:300px;
+    }
+  .aboutimage img{
+        height:auto;
+    }
+    p {
+        padding: 0% 10%;
+    }
+}
+@media screen and (min-width: 992px){
+    .aboutimage img,.index img{
+        height:auto;
+    }  
+    .contentdetails img{
+        max-height: 500px;
+        max-width: 500px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .aboutimage img, .index img{
+        height:auto;
+}
+.contentdetails img{
+    max-height: 700px;
+    max-width: 700px;
+}
+}
